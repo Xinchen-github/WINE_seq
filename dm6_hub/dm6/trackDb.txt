@@ -224,6 +224,102 @@ compositeTrack on
     autoscale group
     autoScale on
 
+    track embryo_0-2hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_0-2hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_0-2hpf.CTSS.normalized.minus
+    longLabel embryo_0-2hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_12-14hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_12-14hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_12-14hpf.CTSS.normalized.minus
+    longLabel embryo_12-14hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_16-18hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_16-18hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_16-18hpf.CTSS.normalized.minus
+    longLabel embryo_16-18hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_2-4hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_2-4hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_2-4hpf.CTSS.normalized.minus
+    longLabel embryo_2-4hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_20-22hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_20-22hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_20-22hpf.CTSS.normalized.minus
+    longLabel embryo_20-22hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_4-6hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_4-6hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_4-6hpf.CTSS.normalized.minus
+    longLabel embryo_4-6hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_6-8hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_6-8hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_6-8hpf.CTSS.normalized.minus
+    longLabel embryo_6-8hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_8-10hpf.CTSS.normalized.minus
+    parent minus on
+    bigDataUrl CAGE/embryo_8-10hpf.CTSS.normalized.minus.bw
+    shortLabel embryo_8-10hpf.CTSS.normalized.minus
+    longLabel embryo_8-10hpf.CTSS.normalized.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
 
 track plus
 shortLabel plus
@@ -442,6 +538,102 @@ compositeTrack on
     bigDataUrl CAGE/ZldKO_PB_rep3.plus.bigWig
     shortLabel ZldKO_PB_rep3.plus
     longLabel ZldKO_PB_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_0-2hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_0-2hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_0-2hpf.CTSS.normalized.plus
+    longLabel embryo_0-2hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_12-14hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_12-14hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_12-14hpf.CTSS.normalized.plus
+    longLabel embryo_12-14hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_16-18hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_16-18hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_16-18hpf.CTSS.normalized.plus
+    longLabel embryo_16-18hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_2-4hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_2-4hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_2-4hpf.CTSS.normalized.plus
+    longLabel embryo_2-4hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_20-22hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_20-22hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_20-22hpf.CTSS.normalized.plus
+    longLabel embryo_20-22hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_4-6hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_4-6hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_4-6hpf.CTSS.normalized.plus
+    longLabel embryo_4-6hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_6-8hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_6-8hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_6-8hpf.CTSS.normalized.plus
+    longLabel embryo_6-8hpf.CTSS.normalized.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track embryo_8-10hpf.CTSS.normalized.plus
+    parent plus on
+    bigDataUrl CAGE/embryo_8-10hpf.CTSS.normalized.plus.bw
+    shortLabel embryo_8-10hpf.CTSS.normalized.plus
+    longLabel embryo_8-10hpf.CTSS.normalized.plus
     type bigWig
     color 255,0,0
     visibility full
