@@ -8,6 +8,270 @@ autoScale on
 visibility full
 compositeTrack on
 
+    track nas1.minus
+    parent minus on
+    bigDataUrl CAGE/nas1.minus.bigWig
+    shortLabel nas1.minus
+    longLabel nas1.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas10.minus
+    parent minus on
+    bigDataUrl CAGE/nas10.minus.bigWig
+    shortLabel nas10.minus
+    longLabel nas10.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas11.minus
+    parent minus on
+    bigDataUrl CAGE/nas11.minus.bigWig
+    shortLabel nas11.minus
+    longLabel nas11.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas2.minus
+    parent minus on
+    bigDataUrl CAGE/nas2.minus.bigWig
+    shortLabel nas2.minus
+    longLabel nas2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas3.minus
+    parent minus on
+    bigDataUrl CAGE/nas3.minus.bigWig
+    shortLabel nas3.minus
+    longLabel nas3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas4.minus
+    parent minus on
+    bigDataUrl CAGE/nas4.minus.bigWig
+    shortLabel nas4.minus
+    longLabel nas4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas5.minus
+    parent minus on
+    bigDataUrl CAGE/nas5.minus.bigWig
+    shortLabel nas5.minus
+    longLabel nas5.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas6.minus
+    parent minus on
+    bigDataUrl CAGE/nas6.minus.bigWig
+    shortLabel nas6.minus
+    longLabel nas6.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas7.minus
+    parent minus on
+    bigDataUrl CAGE/nas7.minus.bigWig
+    shortLabel nas7.minus
+    longLabel nas7.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas8.minus
+    parent minus on
+    bigDataUrl CAGE/nas8.minus.bigWig
+    shortLabel nas8.minus
+    longLabel nas8.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas9.minus
+    parent minus on
+    bigDataUrl CAGE/nas9.minus.bigWig
+    shortLabel nas9.minus
+    longLabel nas9.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot1.minus
+    parent minus on
+    bigDataUrl CAGE/tot1.minus.bigWig
+    shortLabel tot1.minus
+    longLabel tot1.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot10.minus
+    parent minus on
+    bigDataUrl CAGE/tot10.minus.bigWig
+    shortLabel tot10.minus
+    longLabel tot10.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot11.minus
+    parent minus on
+    bigDataUrl CAGE/tot11.minus.bigWig
+    shortLabel tot11.minus
+    longLabel tot11.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot2.minus
+    parent minus on
+    bigDataUrl CAGE/tot2.minus.bigWig
+    shortLabel tot2.minus
+    longLabel tot2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot3.minus
+    parent minus on
+    bigDataUrl CAGE/tot3.minus.bigWig
+    shortLabel tot3.minus
+    longLabel tot3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot4.minus
+    parent minus on
+    bigDataUrl CAGE/tot4.minus.bigWig
+    shortLabel tot4.minus
+    longLabel tot4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot5.minus
+    parent minus on
+    bigDataUrl CAGE/tot5.minus.bigWig
+    shortLabel tot5.minus
+    longLabel tot5.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot6.minus
+    parent minus on
+    bigDataUrl CAGE/tot6.minus.bigWig
+    shortLabel tot6.minus
+    longLabel tot6.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot7.minus
+    parent minus on
+    bigDataUrl CAGE/tot7.minus.bigWig
+    shortLabel tot7.minus
+    longLabel tot7.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot8.minus
+    parent minus on
+    bigDataUrl CAGE/tot8.minus.bigWig
+    shortLabel tot8.minus
+    longLabel tot8.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot9.minus
+    parent minus on
+    bigDataUrl CAGE/tot9.minus.bigWig
+    shortLabel tot9.minus
+    longLabel tot9.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
     track yw_NC14_rep1.minus
     parent minus on
     bigDataUrl CAGE/yw_NC14_rep1.minus.bigWig
@@ -224,102 +488,6 @@ compositeTrack on
     autoscale group
     autoScale on
 
-    track embryo_0-2hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_0-2hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_0-2hpf.CTSS.normalized.minus
-    longLabel embryo_0-2hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_12-14hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_12-14hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_12-14hpf.CTSS.normalized.minus
-    longLabel embryo_12-14hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_16-18hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_16-18hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_16-18hpf.CTSS.normalized.minus
-    longLabel embryo_16-18hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_2-4hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_2-4hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_2-4hpf.CTSS.normalized.minus
-    longLabel embryo_2-4hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_20-22hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_20-22hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_20-22hpf.CTSS.normalized.minus
-    longLabel embryo_20-22hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_4-6hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_4-6hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_4-6hpf.CTSS.normalized.minus
-    longLabel embryo_4-6hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_6-8hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_6-8hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_6-8hpf.CTSS.normalized.minus
-    longLabel embryo_6-8hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_8-10hpf.CTSS.normalized.minus
-    parent minus on
-    bigDataUrl CAGE/embryo_8-10hpf.CTSS.normalized.minus.bw
-    shortLabel embryo_8-10hpf.CTSS.normalized.minus
-    longLabel embryo_8-10hpf.CTSS.normalized.minus
-    type bigWig
-    color 0,0,255
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
 
 track plus
 shortLabel plus
@@ -328,6 +496,270 @@ type bigWig
 autoScale on
 visibility full
 compositeTrack on
+
+    track nas1.plus
+    parent plus on
+    bigDataUrl CAGE/nas1.plus.bigWig
+    shortLabel nas1.plus
+    longLabel nas1.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas10.plus
+    parent plus on
+    bigDataUrl CAGE/nas10.plus.bigWig
+    shortLabel nas10.plus
+    longLabel nas10.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas11.plus
+    parent plus on
+    bigDataUrl CAGE/nas11.plus.bigWig
+    shortLabel nas11.plus
+    longLabel nas11.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas2.plus
+    parent plus on
+    bigDataUrl CAGE/nas2.plus.bigWig
+    shortLabel nas2.plus
+    longLabel nas2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas3.plus
+    parent plus on
+    bigDataUrl CAGE/nas3.plus.bigWig
+    shortLabel nas3.plus
+    longLabel nas3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas4.plus
+    parent plus on
+    bigDataUrl CAGE/nas4.plus.bigWig
+    shortLabel nas4.plus
+    longLabel nas4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas5.plus
+    parent plus on
+    bigDataUrl CAGE/nas5.plus.bigWig
+    shortLabel nas5.plus
+    longLabel nas5.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas6.plus
+    parent plus on
+    bigDataUrl CAGE/nas6.plus.bigWig
+    shortLabel nas6.plus
+    longLabel nas6.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas7.plus
+    parent plus on
+    bigDataUrl CAGE/nas7.plus.bigWig
+    shortLabel nas7.plus
+    longLabel nas7.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas8.plus
+    parent plus on
+    bigDataUrl CAGE/nas8.plus.bigWig
+    shortLabel nas8.plus
+    longLabel nas8.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track nas9.plus
+    parent plus on
+    bigDataUrl CAGE/nas9.plus.bigWig
+    shortLabel nas9.plus
+    longLabel nas9.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot1.plus
+    parent plus on
+    bigDataUrl CAGE/tot1.plus.bigWig
+    shortLabel tot1.plus
+    longLabel tot1.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot10.plus
+    parent plus on
+    bigDataUrl CAGE/tot10.plus.bigWig
+    shortLabel tot10.plus
+    longLabel tot10.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot11.plus
+    parent plus on
+    bigDataUrl CAGE/tot11.plus.bigWig
+    shortLabel tot11.plus
+    longLabel tot11.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot2.plus
+    parent plus on
+    bigDataUrl CAGE/tot2.plus.bigWig
+    shortLabel tot2.plus
+    longLabel tot2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot3.plus
+    parent plus on
+    bigDataUrl CAGE/tot3.plus.bigWig
+    shortLabel tot3.plus
+    longLabel tot3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot4.plus
+    parent plus on
+    bigDataUrl CAGE/tot4.plus.bigWig
+    shortLabel tot4.plus
+    longLabel tot4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot5.plus
+    parent plus on
+    bigDataUrl CAGE/tot5.plus.bigWig
+    shortLabel tot5.plus
+    longLabel tot5.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot6.plus
+    parent plus on
+    bigDataUrl CAGE/tot6.plus.bigWig
+    shortLabel tot6.plus
+    longLabel tot6.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot7.plus
+    parent plus on
+    bigDataUrl CAGE/tot7.plus.bigWig
+    shortLabel tot7.plus
+    longLabel tot7.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot8.plus
+    parent plus on
+    bigDataUrl CAGE/tot8.plus.bigWig
+    shortLabel tot8.plus
+    longLabel tot8.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot9.plus
+    parent plus on
+    bigDataUrl CAGE/tot9.plus.bigWig
+    shortLabel tot9.plus
+    longLabel tot9.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
 
     track yw_NC14_rep1.plus
     parent plus on
@@ -538,102 +970,6 @@ compositeTrack on
     bigDataUrl CAGE/ZldKO_PB_rep3.plus.bigWig
     shortLabel ZldKO_PB_rep3.plus
     longLabel ZldKO_PB_rep3.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_0-2hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_0-2hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_0-2hpf.CTSS.normalized.plus
-    longLabel embryo_0-2hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_12-14hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_12-14hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_12-14hpf.CTSS.normalized.plus
-    longLabel embryo_12-14hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_16-18hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_16-18hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_16-18hpf.CTSS.normalized.plus
-    longLabel embryo_16-18hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_2-4hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_2-4hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_2-4hpf.CTSS.normalized.plus
-    longLabel embryo_2-4hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_20-22hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_20-22hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_20-22hpf.CTSS.normalized.plus
-    longLabel embryo_20-22hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_4-6hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_4-6hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_4-6hpf.CTSS.normalized.plus
-    longLabel embryo_4-6hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_6-8hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_6-8hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_6-8hpf.CTSS.normalized.plus
-    longLabel embryo_6-8hpf.CTSS.normalized.plus
-    type bigWig
-    color 255,0,0
-    visibility full
-    maxHeightPixels 100:32:8
-    autoscale group
-    autoScale on
-
-    track embryo_8-10hpf.CTSS.normalized.plus
-    parent plus on
-    bigDataUrl CAGE/embryo_8-10hpf.CTSS.normalized.plus.bw
-    shortLabel embryo_8-10hpf.CTSS.normalized.plus
-    longLabel embryo_8-10hpf.CTSS.normalized.plus
     type bigWig
     color 255,0,0
     visibility full
