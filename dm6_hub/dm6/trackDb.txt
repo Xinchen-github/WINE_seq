@@ -1,15 +1,15 @@
 
 
-track minus
-shortLabel minus
-longLabel minus
+track minus_totalCAGE
+shortLabel minus_totalCAGE
+longLabel minus_totalCAGE
 type bigWig
 autoScale on
 visibility full
 compositeTrack on
 
     track nas1.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas1.minus.bigWig
     shortLabel nas1.minus
     longLabel nas1.minus
@@ -21,7 +21,7 @@ compositeTrack on
     autoScale on
 
     track nas10.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas10.minus.bigWig
     shortLabel nas10.minus
     longLabel nas10.minus
@@ -33,7 +33,7 @@ compositeTrack on
     autoScale on
 
     track nas11.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas11.minus.bigWig
     shortLabel nas11.minus
     longLabel nas11.minus
@@ -45,7 +45,7 @@ compositeTrack on
     autoScale on
 
     track nas2.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas2.minus.bigWig
     shortLabel nas2.minus
     longLabel nas2.minus
@@ -57,7 +57,7 @@ compositeTrack on
     autoScale on
 
     track nas3.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas3.minus.bigWig
     shortLabel nas3.minus
     longLabel nas3.minus
@@ -69,7 +69,7 @@ compositeTrack on
     autoScale on
 
     track nas4.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas4.minus.bigWig
     shortLabel nas4.minus
     longLabel nas4.minus
@@ -81,7 +81,7 @@ compositeTrack on
     autoScale on
 
     track nas5.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas5.minus.bigWig
     shortLabel nas5.minus
     longLabel nas5.minus
@@ -93,7 +93,7 @@ compositeTrack on
     autoScale on
 
     track nas6.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas6.minus.bigWig
     shortLabel nas6.minus
     longLabel nas6.minus
@@ -105,7 +105,7 @@ compositeTrack on
     autoScale on
 
     track nas7.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas7.minus.bigWig
     shortLabel nas7.minus
     longLabel nas7.minus
@@ -117,7 +117,7 @@ compositeTrack on
     autoScale on
 
     track nas8.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas8.minus.bigWig
     shortLabel nas8.minus
     longLabel nas8.minus
@@ -129,7 +129,7 @@ compositeTrack on
     autoScale on
 
     track nas9.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/nas9.minus.bigWig
     shortLabel nas9.minus
     longLabel nas9.minus
@@ -141,7 +141,7 @@ compositeTrack on
     autoScale on
 
     track tot1.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot1.minus.bigWig
     shortLabel tot1.minus
     longLabel tot1.minus
@@ -153,7 +153,7 @@ compositeTrack on
     autoScale on
 
     track tot10.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot10.minus.bigWig
     shortLabel tot10.minus
     longLabel tot10.minus
@@ -165,7 +165,7 @@ compositeTrack on
     autoScale on
 
     track tot11.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot11.minus.bigWig
     shortLabel tot11.minus
     longLabel tot11.minus
@@ -177,7 +177,7 @@ compositeTrack on
     autoScale on
 
     track tot2.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot2.minus.bigWig
     shortLabel tot2.minus
     longLabel tot2.minus
@@ -189,7 +189,7 @@ compositeTrack on
     autoScale on
 
     track tot3.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot3.minus.bigWig
     shortLabel tot3.minus
     longLabel tot3.minus
@@ -201,7 +201,7 @@ compositeTrack on
     autoScale on
 
     track tot4.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot4.minus.bigWig
     shortLabel tot4.minus
     longLabel tot4.minus
@@ -213,7 +213,7 @@ compositeTrack on
     autoScale on
 
     track tot5.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot5.minus.bigWig
     shortLabel tot5.minus
     longLabel tot5.minus
@@ -225,7 +225,7 @@ compositeTrack on
     autoScale on
 
     track tot6.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot6.minus.bigWig
     shortLabel tot6.minus
     longLabel tot6.minus
@@ -237,7 +237,7 @@ compositeTrack on
     autoScale on
 
     track tot7.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot7.minus.bigWig
     shortLabel tot7.minus
     longLabel tot7.minus
@@ -249,7 +249,7 @@ compositeTrack on
     autoScale on
 
     track tot8.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot8.minus.bigWig
     shortLabel tot8.minus
     longLabel tot8.minus
@@ -261,7 +261,7 @@ compositeTrack on
     autoScale on
 
     track tot9.minus
-    parent minus on
+    parent minus_totalCAGE on
     bigDataUrl CAGE/tot9.minus.bigWig
     shortLabel tot9.minus
     longLabel tot9.minus
@@ -272,8 +272,17 @@ compositeTrack on
     autoscale group
     autoScale on
 
+
+track minus_WINE_seq
+shortLabel minus_WINE_seq
+longLabel minus_WINE_seq
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
     track yw_NC14_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep1.minus.bigWig
     shortLabel yw_NC14_rep1.minus
     longLabel yw_NC14_rep1.minus
@@ -285,7 +294,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC14_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep2.minus.bigWig
     shortLabel yw_NC14_rep2.minus
     longLabel yw_NC14_rep2.minus
@@ -297,7 +306,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC14_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep3.minus.bigWig
     shortLabel yw_NC14_rep3.minus
     longLabel yw_NC14_rep3.minus
@@ -309,7 +318,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep1.minus.bigWig
     shortLabel yw_NC141e_rep1.minus
     longLabel yw_NC141e_rep1.minus
@@ -321,7 +330,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep2.minus.bigWig
     shortLabel yw_NC141e_rep2.minus
     longLabel yw_NC141e_rep2.minus
@@ -333,7 +342,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep3.minus.bigWig
     shortLabel yw_NC141e_rep3.minus
     longLabel yw_NC141e_rep3.minus
@@ -345,7 +354,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep1.minus.bigWig
     shortLabel yw_PB_rep1.minus
     longLabel yw_PB_rep1.minus
@@ -357,7 +366,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep2.minus.bigWig
     shortLabel yw_PB_rep2.minus
     longLabel yw_PB_rep2.minus
@@ -369,7 +378,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep3.minus.bigWig
     shortLabel yw_PB_rep3.minus
     longLabel yw_PB_rep3.minus
@@ -381,7 +390,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep1.minus.bigWig
     shortLabel yw_PB1e_rep1.minus
     longLabel yw_PB1e_rep1.minus
@@ -393,7 +402,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep2.minus.bigWig
     shortLabel yw_PB1e_rep2.minus
     longLabel yw_PB1e_rep2.minus
@@ -405,7 +414,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep3.minus.bigWig
     shortLabel yw_PB1e_rep3.minus
     longLabel yw_PB1e_rep3.minus
@@ -417,7 +426,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep1.minus.bigWig
     shortLabel ZldKO_NC14_rep1.minus
     longLabel ZldKO_NC14_rep1.minus
@@ -429,7 +438,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep2.minus.bigWig
     shortLabel ZldKO_NC14_rep2.minus
     longLabel ZldKO_NC14_rep2.minus
@@ -441,7 +450,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep3.minus.bigWig
     shortLabel ZldKO_NC14_rep3.minus
     longLabel ZldKO_NC14_rep3.minus
@@ -453,7 +462,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep1.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep1.minus.bigWig
     shortLabel ZldKO_PB_rep1.minus
     longLabel ZldKO_PB_rep1.minus
@@ -465,7 +474,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep2.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep2.minus.bigWig
     shortLabel ZldKO_PB_rep2.minus
     longLabel ZldKO_PB_rep2.minus
@@ -477,7 +486,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep3.minus
-    parent minus on
+    parent minus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep3.minus.bigWig
     shortLabel ZldKO_PB_rep3.minus
     longLabel ZldKO_PB_rep3.minus
@@ -489,16 +498,16 @@ compositeTrack on
     autoScale on
 
 
-track plus
-shortLabel plus
-longLabel plus
+track plus_totalCAGE
+shortLabel plus_totalCAGE
+longLabel plus_totalCAGE
 type bigWig
 autoScale on
 visibility full
 compositeTrack on
 
     track nas1.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas1.plus.bigWig
     shortLabel nas1.plus
     longLabel nas1.plus
@@ -510,7 +519,7 @@ compositeTrack on
     autoScale on
 
     track nas10.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas10.plus.bigWig
     shortLabel nas10.plus
     longLabel nas10.plus
@@ -522,7 +531,7 @@ compositeTrack on
     autoScale on
 
     track nas11.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas11.plus.bigWig
     shortLabel nas11.plus
     longLabel nas11.plus
@@ -534,7 +543,7 @@ compositeTrack on
     autoScale on
 
     track nas2.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas2.plus.bigWig
     shortLabel nas2.plus
     longLabel nas2.plus
@@ -546,7 +555,7 @@ compositeTrack on
     autoScale on
 
     track nas3.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas3.plus.bigWig
     shortLabel nas3.plus
     longLabel nas3.plus
@@ -558,7 +567,7 @@ compositeTrack on
     autoScale on
 
     track nas4.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas4.plus.bigWig
     shortLabel nas4.plus
     longLabel nas4.plus
@@ -570,7 +579,7 @@ compositeTrack on
     autoScale on
 
     track nas5.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas5.plus.bigWig
     shortLabel nas5.plus
     longLabel nas5.plus
@@ -582,7 +591,7 @@ compositeTrack on
     autoScale on
 
     track nas6.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas6.plus.bigWig
     shortLabel nas6.plus
     longLabel nas6.plus
@@ -594,7 +603,7 @@ compositeTrack on
     autoScale on
 
     track nas7.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas7.plus.bigWig
     shortLabel nas7.plus
     longLabel nas7.plus
@@ -606,7 +615,7 @@ compositeTrack on
     autoScale on
 
     track nas8.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas8.plus.bigWig
     shortLabel nas8.plus
     longLabel nas8.plus
@@ -618,7 +627,7 @@ compositeTrack on
     autoScale on
 
     track nas9.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/nas9.plus.bigWig
     shortLabel nas9.plus
     longLabel nas9.plus
@@ -630,7 +639,7 @@ compositeTrack on
     autoScale on
 
     track tot1.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot1.plus.bigWig
     shortLabel tot1.plus
     longLabel tot1.plus
@@ -642,7 +651,7 @@ compositeTrack on
     autoScale on
 
     track tot10.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot10.plus.bigWig
     shortLabel tot10.plus
     longLabel tot10.plus
@@ -654,7 +663,7 @@ compositeTrack on
     autoScale on
 
     track tot11.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot11.plus.bigWig
     shortLabel tot11.plus
     longLabel tot11.plus
@@ -666,7 +675,7 @@ compositeTrack on
     autoScale on
 
     track tot2.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot2.plus.bigWig
     shortLabel tot2.plus
     longLabel tot2.plus
@@ -678,7 +687,7 @@ compositeTrack on
     autoScale on
 
     track tot3.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot3.plus.bigWig
     shortLabel tot3.plus
     longLabel tot3.plus
@@ -690,7 +699,7 @@ compositeTrack on
     autoScale on
 
     track tot4.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot4.plus.bigWig
     shortLabel tot4.plus
     longLabel tot4.plus
@@ -702,7 +711,7 @@ compositeTrack on
     autoScale on
 
     track tot5.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot5.plus.bigWig
     shortLabel tot5.plus
     longLabel tot5.plus
@@ -714,7 +723,7 @@ compositeTrack on
     autoScale on
 
     track tot6.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot6.plus.bigWig
     shortLabel tot6.plus
     longLabel tot6.plus
@@ -726,7 +735,7 @@ compositeTrack on
     autoScale on
 
     track tot7.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot7.plus.bigWig
     shortLabel tot7.plus
     longLabel tot7.plus
@@ -738,7 +747,7 @@ compositeTrack on
     autoScale on
 
     track tot8.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot8.plus.bigWig
     shortLabel tot8.plus
     longLabel tot8.plus
@@ -750,7 +759,7 @@ compositeTrack on
     autoScale on
 
     track tot9.plus
-    parent plus on
+    parent plus_totalCAGE on
     bigDataUrl CAGE/tot9.plus.bigWig
     shortLabel tot9.plus
     longLabel tot9.plus
@@ -761,8 +770,17 @@ compositeTrack on
     autoscale group
     autoScale on
 
+
+track plus_WINE_seq
+shortLabel plus_WINE_seq
+longLabel plus_WINE_seq
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
     track yw_NC14_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep1.plus.bigWig
     shortLabel yw_NC14_rep1.plus
     longLabel yw_NC14_rep1.plus
@@ -774,7 +792,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC14_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep2.plus.bigWig
     shortLabel yw_NC14_rep2.plus
     longLabel yw_NC14_rep2.plus
@@ -786,7 +804,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC14_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC14_rep3.plus.bigWig
     shortLabel yw_NC14_rep3.plus
     longLabel yw_NC14_rep3.plus
@@ -798,7 +816,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep1.plus.bigWig
     shortLabel yw_NC141e_rep1.plus
     longLabel yw_NC141e_rep1.plus
@@ -810,7 +828,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep2.plus.bigWig
     shortLabel yw_NC141e_rep2.plus
     longLabel yw_NC141e_rep2.plus
@@ -822,7 +840,7 @@ compositeTrack on
     autoScale on
 
     track yw_NC141e_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_NC141e_rep3.plus.bigWig
     shortLabel yw_NC141e_rep3.plus
     longLabel yw_NC141e_rep3.plus
@@ -834,7 +852,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep1.plus.bigWig
     shortLabel yw_PB_rep1.plus
     longLabel yw_PB_rep1.plus
@@ -846,7 +864,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep2.plus.bigWig
     shortLabel yw_PB_rep2.plus
     longLabel yw_PB_rep2.plus
@@ -858,7 +876,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB_rep3.plus.bigWig
     shortLabel yw_PB_rep3.plus
     longLabel yw_PB_rep3.plus
@@ -870,7 +888,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep1.plus.bigWig
     shortLabel yw_PB1e_rep1.plus
     longLabel yw_PB1e_rep1.plus
@@ -882,7 +900,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep2.plus.bigWig
     shortLabel yw_PB1e_rep2.plus
     longLabel yw_PB1e_rep2.plus
@@ -894,7 +912,7 @@ compositeTrack on
     autoScale on
 
     track yw_PB1e_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/yw_PB1e_rep3.plus.bigWig
     shortLabel yw_PB1e_rep3.plus
     longLabel yw_PB1e_rep3.plus
@@ -906,7 +924,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep1.plus.bigWig
     shortLabel ZldKO_NC14_rep1.plus
     longLabel ZldKO_NC14_rep1.plus
@@ -918,7 +936,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep2.plus.bigWig
     shortLabel ZldKO_NC14_rep2.plus
     longLabel ZldKO_NC14_rep2.plus
@@ -930,7 +948,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_NC14_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_NC14_rep3.plus.bigWig
     shortLabel ZldKO_NC14_rep3.plus
     longLabel ZldKO_NC14_rep3.plus
@@ -942,7 +960,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep1.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep1.plus.bigWig
     shortLabel ZldKO_PB_rep1.plus
     longLabel ZldKO_PB_rep1.plus
@@ -954,7 +972,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep2.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep2.plus.bigWig
     shortLabel ZldKO_PB_rep2.plus
     longLabel ZldKO_PB_rep2.plus
@@ -966,7 +984,7 @@ compositeTrack on
     autoScale on
 
     track ZldKO_PB_rep3.plus
-    parent plus on
+    parent plus_WINE_seq on
     bigDataUrl CAGE/ZldKO_PB_rep3.plus.bigWig
     shortLabel ZldKO_PB_rep3.plus
     longLabel ZldKO_PB_rep3.plus
