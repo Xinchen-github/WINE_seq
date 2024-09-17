@@ -1,15 +1,15 @@
 
 
-track minus_totalCAGE
-shortLabel minus_totalCAGE
-longLabel minus_totalCAGE
+track minus_slic-CAGE
+shortLabel minus_slic-CAGE
+longLabel minus_slic-CAGE
 type bigWig
 autoScale on
 visibility full
 compositeTrack on
 
     track nas1.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas1.minus.bigWig
     shortLabel nas1.minus
     longLabel nas1.minus
@@ -21,7 +21,7 @@ compositeTrack on
     autoScale on
 
     track nas10.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas10.minus.bigWig
     shortLabel nas10.minus
     longLabel nas10.minus
@@ -33,7 +33,7 @@ compositeTrack on
     autoScale on
 
     track nas11.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas11.minus.bigWig
     shortLabel nas11.minus
     longLabel nas11.minus
@@ -45,7 +45,7 @@ compositeTrack on
     autoScale on
 
     track nas2.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas2.minus.bigWig
     shortLabel nas2.minus
     longLabel nas2.minus
@@ -57,7 +57,7 @@ compositeTrack on
     autoScale on
 
     track nas3.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas3.minus.bigWig
     shortLabel nas3.minus
     longLabel nas3.minus
@@ -69,7 +69,7 @@ compositeTrack on
     autoScale on
 
     track nas4.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas4.minus.bigWig
     shortLabel nas4.minus
     longLabel nas4.minus
@@ -81,7 +81,7 @@ compositeTrack on
     autoScale on
 
     track nas5.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas5.minus.bigWig
     shortLabel nas5.minus
     longLabel nas5.minus
@@ -93,7 +93,7 @@ compositeTrack on
     autoScale on
 
     track nas6.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas6.minus.bigWig
     shortLabel nas6.minus
     longLabel nas6.minus
@@ -105,7 +105,7 @@ compositeTrack on
     autoScale on
 
     track nas7.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas7.minus.bigWig
     shortLabel nas7.minus
     longLabel nas7.minus
@@ -117,7 +117,7 @@ compositeTrack on
     autoScale on
 
     track nas8.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas8.minus.bigWig
     shortLabel nas8.minus
     longLabel nas8.minus
@@ -129,7 +129,7 @@ compositeTrack on
     autoScale on
 
     track nas9.minus
-    parent minus_totalCAGE on
+    parent minus_slic-CAGE on
     bigDataUrl CAGE/nas9.minus.bigWig
     shortLabel nas9.minus
     longLabel nas9.minus
@@ -139,6 +139,15 @@ compositeTrack on
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
+
+
+track minus_totalCAGE
+shortLabel minus_totalCAGE
+longLabel minus_totalCAGE
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
 
     track tot1.minus
     parent minus_totalCAGE on
@@ -280,6 +289,402 @@ type bigWig
 autoScale on
 visibility full
 compositeTrack on
+
+    track Mat_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep2.minus.bigWig
+    shortLabel Mat_Rpa70GFP_rep2.minus
+    longLabel Mat_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Mat_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep3.minus.bigWig
+    shortLabel Mat_Rpa70GFP_rep3.minus
+    longLabel Mat_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Mat_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep4.minus.bigWig
+    shortLabel Mat_Rpa70GFP_rep4.minus
+    longLabel Mat_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC08_Rpa70GFP_rep2.minus
+    longLabel NC08_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC08_Rpa70GFP_rep3.minus
+    longLabel NC08_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC08_Rpa70GFP_rep4.minus
+    longLabel NC08_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC09_Rpa70GFP_rep2.minus
+    longLabel NC09_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC09_Rpa70GFP_rep3.minus
+    longLabel NC09_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC09_Rpa70GFP_rep4.minus
+    longLabel NC09_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC10_Rpa70GFP_rep2.minus
+    longLabel NC10_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC10_Rpa70GFP_rep3.minus
+    longLabel NC10_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC10_Rpa70GFP_rep4.minus
+    longLabel NC10_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC11_Rpa70GFP_rep2.minus
+    longLabel NC11_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC11_Rpa70GFP_rep3.minus
+    longLabel NC11_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC11_Rpa70GFP_rep4.minus
+    longLabel NC11_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC12_Rpa70GFP_rep2.minus
+    longLabel NC12_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC12_Rpa70GFP_rep3.minus
+    longLabel NC12_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC12_Rpa70GFP_rep4.minus
+    longLabel NC12_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC13_Rpa70GFP_rep2.minus
+    longLabel NC13_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC13_Rpa70GFP_rep3.minus
+    longLabel NC13_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC13_Rpa70GFP_rep4.minus
+    longLabel NC13_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC14_Rpa70GFP_rep2.minus
+    longLabel NC14_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep3.minus.bigWig
+    shortLabel NC14_Rpa70GFP_rep3.minus
+    longLabel NC14_Rpa70GFP_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep4.minus.bigWig
+    shortLabel NC14_Rpa70GFP_rep4.minus
+    longLabel NC14_Rpa70GFP_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep2.minus.bigWig
+    shortLabel NC14_yw_rep2.minus
+    longLabel NC14_yw_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep3.minus.bigWig
+    shortLabel NC14_yw_rep3.minus
+    longLabel NC14_yw_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep4.minus.bigWig
+    shortLabel NC14_yw_rep4.minus
+    longLabel NC14_yw_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep2.minus.bigWig
+    shortLabel NC14_yw50ng_rep2.minus
+    longLabel NC14_yw50ng_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep3.minus.bigWig
+    shortLabel NC14_yw50ng_rep3.minus
+    longLabel NC14_yw50ng_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep4.minus.bigWig
+    shortLabel NC14_yw50ng_rep4.minus
+    longLabel NC14_yw50ng_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep2.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep2.minus.bigWig
+    shortLabel PB_yw_rep2.minus
+    longLabel PB_yw_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep3.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep3.minus.bigWig
+    shortLabel PB_yw_rep3.minus
+    longLabel PB_yw_rep3.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep4.minus
+    parent minus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep4.minus.bigWig
+    shortLabel PB_yw_rep4.minus
+    longLabel PB_yw_rep4.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
 
     track yw_NC14_rep1.minus
     parent minus_WINE_seq on
@@ -498,16 +903,16 @@ compositeTrack on
     autoScale on
 
 
-track plus_totalCAGE
-shortLabel plus_totalCAGE
-longLabel plus_totalCAGE
+track plus_slic-CAGE
+shortLabel plus_slic-CAGE
+longLabel plus_slic-CAGE
 type bigWig
 autoScale on
 visibility full
 compositeTrack on
 
     track nas1.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas1.plus.bigWig
     shortLabel nas1.plus
     longLabel nas1.plus
@@ -519,7 +924,7 @@ compositeTrack on
     autoScale on
 
     track nas10.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas10.plus.bigWig
     shortLabel nas10.plus
     longLabel nas10.plus
@@ -531,7 +936,7 @@ compositeTrack on
     autoScale on
 
     track nas11.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas11.plus.bigWig
     shortLabel nas11.plus
     longLabel nas11.plus
@@ -543,7 +948,7 @@ compositeTrack on
     autoScale on
 
     track nas2.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas2.plus.bigWig
     shortLabel nas2.plus
     longLabel nas2.plus
@@ -555,7 +960,7 @@ compositeTrack on
     autoScale on
 
     track nas3.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas3.plus.bigWig
     shortLabel nas3.plus
     longLabel nas3.plus
@@ -567,7 +972,7 @@ compositeTrack on
     autoScale on
 
     track nas4.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas4.plus.bigWig
     shortLabel nas4.plus
     longLabel nas4.plus
@@ -579,7 +984,7 @@ compositeTrack on
     autoScale on
 
     track nas5.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas5.plus.bigWig
     shortLabel nas5.plus
     longLabel nas5.plus
@@ -591,7 +996,7 @@ compositeTrack on
     autoScale on
 
     track nas6.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas6.plus.bigWig
     shortLabel nas6.plus
     longLabel nas6.plus
@@ -603,7 +1008,7 @@ compositeTrack on
     autoScale on
 
     track nas7.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas7.plus.bigWig
     shortLabel nas7.plus
     longLabel nas7.plus
@@ -615,7 +1020,7 @@ compositeTrack on
     autoScale on
 
     track nas8.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas8.plus.bigWig
     shortLabel nas8.plus
     longLabel nas8.plus
@@ -627,7 +1032,7 @@ compositeTrack on
     autoScale on
 
     track nas9.plus
-    parent plus_totalCAGE on
+    parent plus_slic-CAGE on
     bigDataUrl CAGE/nas9.plus.bigWig
     shortLabel nas9.plus
     longLabel nas9.plus
@@ -637,6 +1042,15 @@ compositeTrack on
     maxHeightPixels 100:32:8
     autoscale group
     autoScale on
+
+
+track plus_totalCAGE
+shortLabel plus_totalCAGE
+longLabel plus_totalCAGE
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
 
     track tot1.plus
     parent plus_totalCAGE on
@@ -778,6 +1192,402 @@ type bigWig
 autoScale on
 visibility full
 compositeTrack on
+
+    track Mat_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep2.plus.bigWig
+    shortLabel Mat_Rpa70GFP_rep2.plus
+    longLabel Mat_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Mat_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep3.plus.bigWig
+    shortLabel Mat_Rpa70GFP_rep3.plus
+    longLabel Mat_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track Mat_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/Mat_Rpa70GFP_rep4.plus.bigWig
+    shortLabel Mat_Rpa70GFP_rep4.plus
+    longLabel Mat_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC08_Rpa70GFP_rep2.plus
+    longLabel NC08_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC08_Rpa70GFP_rep3.plus
+    longLabel NC08_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC08_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC08_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC08_Rpa70GFP_rep4.plus
+    longLabel NC08_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC09_Rpa70GFP_rep2.plus
+    longLabel NC09_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC09_Rpa70GFP_rep3.plus
+    longLabel NC09_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC09_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC09_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC09_Rpa70GFP_rep4.plus
+    longLabel NC09_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC10_Rpa70GFP_rep2.plus
+    longLabel NC10_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC10_Rpa70GFP_rep3.plus
+    longLabel NC10_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC10_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC10_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC10_Rpa70GFP_rep4.plus
+    longLabel NC10_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC11_Rpa70GFP_rep2.plus
+    longLabel NC11_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC11_Rpa70GFP_rep3.plus
+    longLabel NC11_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC11_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC11_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC11_Rpa70GFP_rep4.plus
+    longLabel NC11_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC12_Rpa70GFP_rep2.plus
+    longLabel NC12_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC12_Rpa70GFP_rep3.plus
+    longLabel NC12_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC12_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC12_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC12_Rpa70GFP_rep4.plus
+    longLabel NC12_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC13_Rpa70GFP_rep2.plus
+    longLabel NC13_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC13_Rpa70GFP_rep3.plus
+    longLabel NC13_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC13_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC13_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC13_Rpa70GFP_rep4.plus
+    longLabel NC13_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC14_Rpa70GFP_rep2.plus
+    longLabel NC14_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep3.plus.bigWig
+    shortLabel NC14_Rpa70GFP_rep3.plus
+    longLabel NC14_Rpa70GFP_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_Rpa70GFP_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep4.plus.bigWig
+    shortLabel NC14_Rpa70GFP_rep4.plus
+    longLabel NC14_Rpa70GFP_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep2.plus.bigWig
+    shortLabel NC14_yw_rep2.plus
+    longLabel NC14_yw_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep3.plus.bigWig
+    shortLabel NC14_yw_rep3.plus
+    longLabel NC14_yw_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw_rep4.plus.bigWig
+    shortLabel NC14_yw_rep4.plus
+    longLabel NC14_yw_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep2.plus.bigWig
+    shortLabel NC14_yw50ng_rep2.plus
+    longLabel NC14_yw50ng_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep3.plus.bigWig
+    shortLabel NC14_yw50ng_rep3.plus
+    longLabel NC14_yw50ng_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track NC14_yw50ng_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/NC14_yw50ng_rep4.plus.bigWig
+    shortLabel NC14_yw50ng_rep4.plus
+    longLabel NC14_yw50ng_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep2.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep2.plus.bigWig
+    shortLabel PB_yw_rep2.plus
+    longLabel PB_yw_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep3.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep3.plus.bigWig
+    shortLabel PB_yw_rep3.plus
+    longLabel PB_yw_rep3.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track PB_yw_rep4.plus
+    parent plus_WINE_seq on
+    bigDataUrl CAGE/PB_yw_rep4.plus.bigWig
+    shortLabel PB_yw_rep4.plus
+    longLabel PB_yw_rep4.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
 
     track yw_NC14_rep1.plus
     parent plus_WINE_seq on
